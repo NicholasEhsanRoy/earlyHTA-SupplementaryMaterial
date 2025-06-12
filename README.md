@@ -1,5 +1,5 @@
 # earlyHTA-SupplementaryMaterial
-Supplementary Material for Group 6 of the "Early HTA during Medical Device Development" course at University Twente
+Supplementary Material for Group 6 of the "Early HTA during Medical Device Development" course at University Twente (Academic year 2024-2025)
 
 ## Health Economic Model
 
