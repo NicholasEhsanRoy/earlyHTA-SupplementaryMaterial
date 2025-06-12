@@ -1,0 +1,8 @@
+Health State,GAHV Cost (€),Ross Cost (€)
+HPI (Healthy Post-Intervention),500,750
+VDF (Valve Dysfunction/Failure),0,0
+RO (Reoperation),33000,57670
+PRO (Post-Reoperation),15000,20000
+MC (Major Complication),10000,10000
+DIS (Disabled),12000,12000
+DEATH (Death),0,0

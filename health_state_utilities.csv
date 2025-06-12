@@ -1,0 +1,8 @@
+Health State,GAHV Utility,Ross Utility
+HPI (Healthy Post-Intervention),0.75,0.65
+VDF (Valve Dysfunction/Failure),0.0,0.0
+RO (Reoperation),0.2,0.2
+PRO (Post-Reoperation),0.7,0.6
+MC (Major Complication),0.3,0.3
+DIS (Disabled),0.4,0.4
+DEATH (Death),0.0,0.0
