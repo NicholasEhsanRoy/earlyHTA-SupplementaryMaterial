@@ -1,0 +1,47 @@
+initial_patients: 1000
+initial_state: HPI
+model_name: My Simulation Model
+timestep_unit: Week
+transitions:
+- probability: 0.047
+  source: HPI
+  target: VDF
+- probability: 0.005
+  source: HPI
+  target: MC
+- probability: 0.0094
+  source: HPI
+  target: DEATH
+- probability: 0.9386
+  source: HPI
+  target: HPI
+- probability: 1.0
+  source: VDF
+  target: RO
+- probability: 0.8
+  source: RO
+  target: PRO
+- probability: 0.1
+  source: RO
+  target: MC
+- probability: 0.1
+  source: RO
+  target: DEATH
+- probability: 1.0
+  source: PRO
+  target: HPI
+- probability: 0.5
+  source: MC
+  target: HPI
+- probability: 0.3
+  source: MC
+  target: DISABLED
+- probability: 0.2
+  source: MC
+  target: DEATH
+- probability: 0.05
+  source: DISABLED
+  target: DEATH
+- probability: 0.95
+  source: DISABLED
+  target: DISABLED
